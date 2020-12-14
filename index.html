@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tourism</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
+    <style>
+        #colour-variations {
+            padding: 10px;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
+            width: 140px;
+            position: fixed;
+            left: 0;
+            top: 100px;
+            z-index: 999999;
+            background: #fff;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+            -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+            -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+            box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+        }
+        
+        #colour-variations.sleep {
+            margin-left: -140px;
+        }
+        
+        #colour-variations h3 {
+            text-align: center;
+            ;
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #777;
+            margin: 0 0 10px 0;
+            padding: 0;
+            ;
+        }
+        
+        #colour-variations ul,
+        #colour-variations ul li {
+            padding: 0;
+            margin: 0;
+        }
+        
+        #colour-variations li {
+            list-style: none;
+            display: inline;
+        }
+        
+        #colour-variations li a {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            float: left;
+            margin: 5px;
+        }
+        
+        #colour-variations li a[data-theme="style"] {
+            background: #6173f4;
+        }
+        
+        #colour-variations li a[data-theme="pink"] {
+            background: #f64662;
+        }
+        
+        #colour-variations li a[data-theme="blue"] {
+            background: #2185d5;
+        }
+        
+        #colour-variations li a[data-theme="turquoise"] {
+            background: #00b8a9;
+        }
+        
+        #colour-variations li a[data-theme="orange"] {
+            background: #ff6600;
+        }
+        
+        #colour-variations li a[data-theme="lightblue"] {
+            background: #5585b5;
+        }
+        
+        #colour-variations li a[data-theme="brown"] {
+            background: #a03232;
+        }
+        
+        #colour-variations li a[data-theme="green"] {
+            background: #65d269;
+        }
+        
+        .option-toggle {
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-top: 5px;
+            margin-right: -30px;
+            width: 30px;
+            height: 30px;
+            background: #f64662;
+            text-align: center;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+            -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+            -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+            -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+            box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+        }
+        
+        .option-toggle i {
+            top: 2px;
+            position: relative;
+        }
+        
+        .option-toggle:hover,
+        .option-toggle:focus,
+        .option-toggle:active {
+            color: #fff;
+            text-decoration: none;
+            outline: none;
+        }
+    </style>
+
+
+
+
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+
+</head>
+
+<body>
+    <header role="banner" id="fh5co-header">
+        <div class="container">
+
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+
+                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                    <a class="navbar-brand" href="index.html">Hello!</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+                        <li><a href="#" data-nav-section="about"><span>About</span></a></li>
+                        <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
+
+                        <li><a href="#" data-nav-section="pricing"><span>Pricing</span></a></li>
+                        <li><a href="#" data-nav-section="press"><span>other place</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <div id="slider" data-section="home">
+        <div class="owl-carousel owl-carousel-fullwidth">
+
+            <div class="item" style="background: #352f44;">
+                <div class="container" style="position: relative;">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-7">
+                            <div class="fh5co-owl-text-wrap">
+                                <div class="fh5co-owl-text">
+                                    <h1 class="fh5co-lead to-animate">Eram garden</h1>
+                                    <h2 class="fh5co-sub-lead to-animate">there is a nice place with high trees in shiraz</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 iphone-image">
+                            <div class="iphone to-animate-2"><img src="images/eram.jpg" alt="Free HTML5 Template by FREEHTML5.co"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" style="background: #38569f;">
+                <div class="container" style="position: relative;">
+                    <div class="row">
+                        <div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
+                            <div class="fh5co-owl-text-wrap">
+                                <div class="fh5co-owl-text">
+                                    <h1 class="fh5co-lead to-animate">hafeziye</h1>
+                                    <h2 class="fh5co-sub-lead to-animate">a place in middle of shiraz city</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-pull-7 col-sm-4 col-sm-pull-7 iphone-image">
+                            <div class="iphone to-animate-2"><img src="images/hafez.jpg" alt="hh"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image:url(images/slide_5.jpg)">
+                <div class="overlay"></div>
+                <div class="container" style="position: relative;">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center">
+                            <div class="fh5co-owl-text-wrap">
+                                <div class="fh5co-owl-text">
+                                    <h1 class="fh5co-lead to-animate">Attractive places</h1>
+                                    <h2 class="fh5co-sub-lead to-animate">for more information click here</h3>
+                                        <p class="to-animate-2">
+                                            <a href="#" target="_blank" class="btn btn-primary btn-lg">click</a>
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="fh5co-about-us" data-section="about">
+        <div class="container">
+            <div class="row row-bottom-padded-lg" id="about-us">
+                <div class="col-md-12 section-heading text-center">
+                    <h2 class="to-animate">Darvaze ghoran</h2>
+                </div>
+                <div class="col-md-8 to-animate">
+                    <img src="images/drvze.jpg" class="img-responsive img-rounded" alt="darvaze">
+                </div>
+                <div class="col-md-4 to-animate">
+
+                    <p> Quran Gate is one of the remnants of ancient periods in Shiraz, which is considered as one of the historical monuments of this city today and is located in the north of the city and is considered as the entrance gate to the north of
+                        Shiraz.
+                    </p>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="fh5co-our-services" data-section="services">
+        <div class="container">
+            <div class="row row-bottom-padded-sm">
+                <div class="col-md-12 section-heading text-center">
+                    <h2 class="to-animate">Services</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box to-animate">
+                        <div class="icon colored-1"><span><i class="icon-mustache"></i></span></div>
+                        <h3>Souvenir</h3>
+                        <p>The main souvenirs of Shiraz can be lemon juice, pomegranate, figs, pickles, leather, mat, henna, inlay, handicraft, dates, spinning, saffron, bleach, stone cutting, glassmaking, orange spring, pottery, liqueurs, metalwork, carpet,
+                            Bath bag, Gabbeh, kilim, muffins and Muscat, yokeh bread, milk bread, inlay and felt</p>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="box to-animate">
+                        <div class="icon colored-2"><span><i class="icon-screen-desktop"></i></span></div>
+                        <h3>best time to travel</h3>
+                        <p>the best time to travel in Ordibehesht cause the flowers and trees are so beautiful and the air will fresh</p>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="box to-animate">
+                        <div class="icon colored-3"><span><i class="icon-eye"></i></span></div>
+                        <h3>Handicrafts</h3>
+                        <p>Wood products such as inlay, which is perhaps the most famous of all arts in Shiraz, mosaics, woodcarving, pottery and ceramics, including pottery, mosaic tiles, seven-color tiles, metal arts such as silver and engraving, handicrafts
+                            such as kilim and Gabbeh, Mat and Boria, along with traditional glassmaking with a long history, felt weaving, plastering, weaving and also painting, which has long highlighted the name of this city among the schools of painting
+                            in Iran, deserve Shiraz along with three other cities and villages in Iran. Appeared in the list of world cities of handicrafts in 2020.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fh5co-pricing" data-section="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading text-center">
+                    <h2 class="single-animate animate-pricing-1">Pricing for hotels</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="price-box to-animate">
+                        <h2 class="pricing-plan">Starter</h2>
+                        <div class="price"><sup class="currency">$</sup>7</div>
+                        <p>Inexpensive</p>
+                        <hr>
+                        <ul class="pricing-info">
+                            <li>1 room</li>
+                            <li>1 bed</li>
+                            <li>1 bathroom</li>
+                        </ul>
+                        <a href="#" class="btn btn-default btn-sm">reserv</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="price-box to-animate">
+                        <h2 class="pricing-plan">Regular</h2>
+                        <div class="price"><sup class="currency">$</sup>19</div>
+                        <p>medium cost</p>
+                        <hr>
+                        <ul class="pricing-info">
+                            <li>1 room</li>
+                            <li>2 bed</li>
+                            <li>1 bathroom</li>
+                        </ul>
+                        <a href="#" class="btn btn-default btn-sm">reserv</a>
+                    </div>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-md-3 col-sm-6 to-animate">
+                    <div class="price-box popular">
+                        <h2 class="pricing-plan">Plus</h2>
+                        <div class="price"><sup class="currency">$</sup>79</div>
+                        <p>expensive</p>
+                        <hr>
+                        <ul class="pricing-info">
+                            <li>2 room</li>
+                            <li>4 bed</li>
+                            <li>3 bathroom</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary btn-sm">reserv</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fh5co-press" data-section="press">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading text-center">
+                    <h2 class="single-animate animate-press-1">other places</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+
+                    <div class="fh5co-press-item to-animate">
+                        <div class="fh5co-press-img" style="background-image: url(images/shapori.jpg)">
+                        </div>
+                        <div class="fh5co-press-text">
+                            <h3 class="h2 fh5co-press-title">Shapori <span class="fh5co-border"></span></h3>
+                            <p>The characteristics that distinguish this building from other buildings of its time are: Access to the mansion is not from the main axis and is done with 90 degrees change from the side (north side). In this building, like
+                                other Iranian gardens, it is symmetrical to the main axis, but the type of trees and the way they are located are not symmetrical.</p>
+                            <p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="fh5co-press-item to-animate">
+                        <div class="fh5co-press-img" style="background-image: url(images/sadi.jpg)">
+                        </div>
+                        <div class="fh5co-press-text">
+                            <h3 class="h2 fh5co-press-title">Sadiye <span class="fh5co-border"></span></h3>
+                            <p>This tomb is located at the end of Bustan Street and next to Delgosha Garden at the foot of the mountain in the northeast of Shiraz. Around the tomb, there are many graves of religious leaders who are buried there according
+                                to their will. One of the most important of them is Shorideh Shirazi, whose tomb is connected to Saadi's tomb by a porch.</p>
+                            <p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="fh5co-press-item to-animate">
+                        <div class="fh5co-press-img" style="background-image: url(images/Persepolis.jpg);">
+                        </div>
+                        <div class="fh5co-press-text">
+                            <h3 class="h2 fh5co-press-title">perspolice <span class="fh5co-border"></span></h3>
+                            <p>In 518 BC, the construction of Persepolis began as the new capital of the Achaemenids in Persia. [4] The founder of Persepolis was Darius the Great, but after him his son Xerxes and his grandson Ardashir I expanded the complex
+                                by adding other buildings. </p>
+                            <p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <footer id="footer" role="contentinfo">
+            <div class="container">
+                <div class="row row-bottom-padded-sm">
+                    <div class="col-md-12">
+                        <p class="copyright text-center">&copy; 2015 Free All Rights Reserved. &amp;
+                            <a href="http://unsplash.com/" target="_blank">Unsplash</a></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <ul class="social social-circle">
+                            <li><a href="#"><i class="icon-twitter"></i></a></li>
+                            <li><a href="#"><i class="icon-facebook"></i></a></li>
+                            <li><a href="#"><i class="icon-youtube"></i></a></li>
+                            <li><a href="#"><i class="icon-pinterest"></i></a></li>
+                            <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                            <li><a href="#"><i class="icon-instagram"></i></a></li>
+                            <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery.min.js"></script>
+
+        <script src="js/jquery.easing.1.3.js"></script>
+
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/jquery.waypoints.min.js"></script>
+
+        <script src="js/owl.carousel.min.js"></script>
+
+
+        <script src="js/main.js"></script>
+
+</body>
+
+</html>
